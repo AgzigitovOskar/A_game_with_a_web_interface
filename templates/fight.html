@@ -11,6 +11,11 @@
         <div class="row align-text-top">
           <div class="col align-self-start">
             <h2>{{ heroes.player.name }}</br>класс: <em>{{ heroes.player.unit_class.name }}</em></h2>
+              <img class="hero-picture"
+                src="/static/111.jpg"
+                alt="Hero"
+                width="220"
+                height="300">
             <p><em>Экипировка:</em></p>
             <hr>
             <p>Оружие: {{ heroes.player.weapon.name }}, урон: {{ heroes.player.weapon.min_damage }} - {{ heroes.player.weapon.max_damage }}</br> Броня:
@@ -29,6 +34,11 @@
           </div>
           <div class="col align-self-start">
             <h2>{{ heroes.enemy.name }}</br>класс: <em>{{ heroes.enemy.unit_class.name }}</em></h2>
+              <img class="hero-picture"
+                src="/static/112.jpg"
+                alt="Hero"
+                width="220"
+                height="300">
             <p><em>Экипировка:</em></p>
             <hr>
             <p>Оружие: {{ heroes.enemy.weapon.name }}, урон: {{ heroes.enemy.weapon.min_damage }} - {{ heroes.enemy.weapon.max_damage }}</br> Броня:
